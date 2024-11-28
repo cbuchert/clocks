@@ -2,8 +2,8 @@ import { describe, expect, it } from "vitest"
 import { VectorClock } from "./vector-clock"
 
 describe("VectorClock", () => {
-  const pid1: string = "1"
-  const pid2: string = "2"
+  const pid1 = "1"
+  const pid2 = "2"
 
   it("initializes the clock.", () => {
     const clock = new VectorClock(pid1, [])
